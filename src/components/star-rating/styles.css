@@ -1,0 +1,25 @@
+.active {
+  color: #fff700;
+}
+
+.inactive {
+  color: #000000;
+}
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 40px;
+  color: lightgray; /* Default star color */
+  transition: color 0.2s;
+}
+
+.star.active {
+  color: gold; /* Color for active (selected or hovered) stars */
+}
+
+.star:hover {
+  color: gold; /* Color when hovering over a star */
+}
